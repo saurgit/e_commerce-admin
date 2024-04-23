@@ -1,0 +1,34 @@
+.productList{
+    flex:5;
+    margin: 20px;
+}
+.productTableImg img{
+    width:40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.productTableImg{
+    display: flex;
+    align-items: center;
+}
+.productListAction{
+    display: flex;
+    align-items: center;
+    
+}
+
+.productListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bbb07;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.productListDelete{
+    color: red;
+    cursor: pointer;
+}
